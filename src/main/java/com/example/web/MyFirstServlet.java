@@ -1,8 +1,7 @@
-package com.myAnandbank.web;
+package com.example.web;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.myAnandbank.context.Application;
-import com.myAnandbank.model.Transactions;
+import com.example.context.Application;
+import com.example.model.Transactions;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

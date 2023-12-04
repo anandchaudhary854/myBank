@@ -1,10 +1,8 @@
-package com.myAnandbank.service;
+package com.example.service;
 
-import com.myAnandbank.model.Transactions;
+import com.example.model.Transactions;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -32,6 +30,4 @@ public class TransactionService {
         transactions.add(transactions1);
         return transactions1;
     }
-
-
 }

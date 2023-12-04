@@ -1,5 +1,5 @@
-package com.myAnandbank;
-import com.myAnandbank.web.MyFirstServlet;
+package com.example;
+import com.example.web.MyFirstServlet;
 import org.apache.catalina.Context;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.Wrapper;

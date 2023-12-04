@@ -16,7 +16,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.myAnandbank.ApplicationLauncher</mainClass>
+              <mainClass>com.example.ApplicationLauncher</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -33,7 +33,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.myAnandbank.ApplicationLauncher</mainClass>
+                  <mainClass>com.example.ApplicationLauncher</mainClass>
                 </transformer>
               </transformers>
             </configuration>

@@ -1,4 +1,4 @@
-package com.myAnandbank.model;
+package com.example.model;
 
 import java.util.UUID;
 

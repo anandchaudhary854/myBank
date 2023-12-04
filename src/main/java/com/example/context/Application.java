@@ -1,8 +1,8 @@
-package com.myAnandbank.context;
+package com.example.context;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.myAnandbank.service.TransactionService;
-import com.myAnandbank.service.UserService;
+import com.example.service.TransactionService;
+import com.example.service.UserService;
 
 public class Application {
     public static final UserService userService = new UserService();

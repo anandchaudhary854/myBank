@@ -1,6 +1,6 @@
-package com.myAnandbank.service;
+package com.example.service;
 
-import com.myAnandbank.model.User;
+import com.example.model.User;
 
 import java.util.UUID;
 
