@@ -1,11 +1,13 @@
 package com.example.service;
 
 import com.example.model.Transactions;
+import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+@Component
 public class TransactionService {
 
     UserService userService;
