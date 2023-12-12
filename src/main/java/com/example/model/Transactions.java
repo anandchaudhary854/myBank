@@ -4,9 +4,31 @@ import java.util.UUID;
 
 public class Transactions {
     private String id;
+    private String userId;
     private Integer amount;
     private String timeStamp;
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
     private String reference;
+
+    public Transactions(){
+
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setReference(String reference) {
+        this.reference = reference;
+    }
 
     public String getId() {
         return id;

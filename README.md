@@ -1,5 +1,5 @@
-# Simple Java Servlets API Demo
-This repository contains a small Java project demonstrating the usage of Servlets to create simple GET and POST APIs. Throughout the development process, the project explores the concepts of Servlets, Dependency Injection, and the significance of the pom.xml file.
+# Simple Web App using spring framework (not spring-boot)
+
 
 ## Servlets Overview
 Servlets are Java classes that handle HTTP requests and responses. In this project, we have implemented two Servlets in MyfirstServlet.java one for GET requests and one for POST requests.
@@ -7,8 +7,6 @@ Servlets are Java classes that handle HTTP requests and responses. In this proje
 ## Dependency Injection
 The project explores the concept of Dependency Injection, a design pattern that promotes loose coupling by injecting dependencies into an object rather than allowing the object to create its dependencies. This improves testability and maintainability.
 
-## Contributing
-Contributions are welcome! Please feel free to open issues or submit pull requests.
 
 # Here are the changes 10 dec 2023:-
 
@@ -41,3 +39,9 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 2. Wrote @RestControllers, that can accept and return a variety of data formats, like JSON or XML through content negotiation.
 3. Various ways of accepting request params, path variables or request bodies.
 4. Learned how to validate incoming beans or even just parameters, as well as changing exceptions in RestControllerAdvices
+
+# Here are the learnings and changes for 12 dec 2023:-
+1. Learned how to add an embedded H2 Database to a project and how to create a DataSource for it.
+2. Set up a JdbcTemplate to refactor TransactionService to execute SQL statements against a real database, instead of saving transactions into an in-memory list.
+3. Learned how @ transactional works under the hood using good old JDBC.
+4. Set up transactional annotation for this project as well by creating transactionManager bean.
